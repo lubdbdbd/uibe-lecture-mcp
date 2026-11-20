@@ -1,0 +1,18 @@
+{
+  "name": "下周劳动实践",
+  "instruction": "自动报名符合以下条件的劳动实践课程，最多两场，满员后继续等十分钟",
+  "mode": "enroll",
+  "criteria": {
+    "keywords_any": ["劳动实践"],
+    "exclude": ["仅限", "抽中"],
+    "date_from": "2026-11-16T00:00:00+08:00",
+    "date_until": "2026-11-23T00:00:00+08:00",
+    "min_credits": 0.2,
+    "busy": []
+  },
+  "max_success": 2,
+  "watch_minutes": 10,
+  "scan_seconds": 300,
+  "expires": "2026-11-22T23:59:59+08:00"
+}
+
